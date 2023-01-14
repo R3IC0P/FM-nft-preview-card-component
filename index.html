@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+        <title>Frontend Mentor | NFT preview card component</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+            rel="stylesheet" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <main>
+            <div class="card">
+                <a href="#" class="card__img--link">
+                    <img
+                        src="./images/image-equilibrium.jpg"
+                        alt="Element of Equilibrium collection"
+                        class="card__img" />
+                </a>
+                <section class="card__details">
+                    <h2 class="card__details--title">
+                        <a href="#">Equilibrium #3429</a>
+                    </h2>
+                    <p class="card__details--description">
+                        Our Equilibrium collection promotes balance and calm.
+                    </p>
+                    <div class="card__details--group">
+                        <img
+                            src="./images/icon-ethereum.svg"
+                            alt="ethereum icon"
+                            class="card__details--eth-icon" />
+                        <span class="card__details--price">0.041 ETH</span>
+                        <img
+                            src="./images/icon-clock.svg"
+                            alt="clock icon"
+                            class="card__details--clock-icon" />
+                        <span class="card__details--remaining-time">3 days left</span>
+                    </div>
+                    <hr class="card__details--separator" />
+                    <div class="card__details--group">
+                        <img
+                            src="./images/image-avatar.png"
+                            alt="avatar of creator"
+                            class="card__details--creator-avatar" />
+                        <p class="card__details--creator-info">
+                            Creation of
+                            <a href="#" class="card__details--creator-name">Jules Wyvern</a>
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer>
+            Challenge by
+            <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a
+            >. Coded by <a href="#">Your Name Here</a>.
+        </footer>
+    </body>
+</html>
