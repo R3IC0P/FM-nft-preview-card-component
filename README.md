@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://github.com/R3IC0P/FM-nft-preview-card-component)
--   Live Site URL: [Add live site URL here](https://r3ic0p.github.io/FM-nft-preview-card-component/)
+-   Solution URL: [GitHub Repository](https://github.com/R3IC0P/FM-nft-preview-card-component)
+-   Live Site URL: [Live Preview](https://r3ic0p.github.io/FM-nft-preview-card-component/)
 
 ## My process
 
